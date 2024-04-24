@@ -15,6 +15,7 @@ Our project’s follows the methodology of building transformer based on the fam
 •	Design the decoder with similar components, augmented with masked multi-headed attention layers to prevent the model from attending to future tokens during training.
 3)	Training Procedure:
 •	Initialize the parameters of the transformer model randomly or with pre-trained embeddings.
+• GloVe 6B 50D is a pre-trained word embedding model trained on a corpus of 6 billion tokens with a vocabulary size of 400,000. It represents words as 50-dimensional vectors, capturing semantic relationships and contextual information for natural language processing tasks.
 •	Utilize optimization techniques i.e. Adam optimizer with a custom learning rate to minimize the loss function, which could be a suitable loss function for sequence generation tasks like document summarization, such as cross-entropy loss.
  
 ![diagram](https://github.com/Shadow-1622/Text-Summarization-Using-Transformers/assets/64398826/6b49b023-6bcf-4150-9088-2f95ca3416f9)
